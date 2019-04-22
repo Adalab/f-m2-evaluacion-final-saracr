@@ -1,28 +1,63 @@
 @import 'core/settings';
-
+*{
+	font-family: 'poppins', sans-serif;
+}
 body {
 	background-color: #2e2e2e;
-	height: 100vh;
 	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 .page__header-title{
-	font-size: 20px;
+	font-size: 32px;
 	color: white;
 	font-weight: 400;
 }
 .page__main{
-
+	
+	
 }
 .page__main-search{
-	display: flex;
+	padding-top: 40px;
+	
 	
 }
 .input{
+	text-align: left;
+	height: 34px;
+	width: 200px;
+	font-size: 16px;
+	background-color: transparent;
+	color: #fff;
+	border:none;
+	border-bottom: 1px solid #fff;
+	&:focus {
+		outline: none
+	}
+	&:active{
+		text: none;
+	}
 
 }
 .btn{
+	letter-spacing: 2px;
+	cursor: pointer;
 	margin-left: 20px;
-
+	height: 40px;
+	width: 120px;
+	font-size: 16px;
+	color: white;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: solid 1px white;
+	border-radius: 12px;
+	
+	&:hover{
+		background-color: #007da7;
+		border-color: #007da7;
+	}
 }
 .page__main-content{
 
