@@ -14,20 +14,18 @@ body {
 	font-size: 32px;
 	color: white;
 	font-weight: 400;
+	word-spacing: 8px;
 }
 .page__main{
-	
-	
 }
 .page__main-search{
 	padding-top: 40px;
-	
-	
+
 }
 .input{
-	text-align: left;
 	height: 34px;
 	width: 200px;
+	text-align: left;
 	font-size: 16px;
 	background-color: transparent;
 	color: #fff;
@@ -36,10 +34,6 @@ body {
 	&:focus {
 		outline: none
 	}
-	&:active{
-		text: none;
-	}
-
 }
 .btn{
 	letter-spacing: 2px;

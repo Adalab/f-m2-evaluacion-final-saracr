@@ -18,7 +18,7 @@ function showList(){
     .then(data => {
       getList(data);
     });
-  console.log('wtf');
+  console.log('data');
 }
 // Función que pinte tarjeta de la serie con img y título
 
