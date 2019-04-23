@@ -10,10 +10,10 @@ body {
 	align-content: center;
 }
 .page__header-title{
-	font-size: 32px;
+	font-size: 40px;
 	color: $color-white;
 	font-weight: 400;
-	word-spacing: 8px;
+	word-spacing: 6px;
 }
 .page__main-search{
 	padding-top: 40px;
@@ -48,9 +48,18 @@ body {
 		border-color: $color-blue;
 	}
 }
-.page__main-content{
-
+.tv__shows{
+	padding: 0;
+	text-decoration: none;	
 }
-.tv-shows{
-
+.show__title{
+	color: $color-white;
+	margin: 0;
+	padding-top: 40px;
+}
+.tv__shows-list{
+	list-style: none;
+}
+.img__show{
+	border-radius: 10px;
 }
